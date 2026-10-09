@@ -173,15 +173,17 @@ nameInputEl1.addEventListener('input', function(event) {
 
 // Задание третье обработчик событий
 const btnText = document.getElementById("hideBtn");
+const textEl = document.getElementById("text");
 btnText.addEventListener("click" , () => {
-    const textEl = document.getElementById("text");
     textEl.style.display = "none";
 })
 
 const btnText1 = document.getElementById("hideBtn");
+const textEl = document.getElementById("text");
 btnText.addEventListener("click" , function() {
-    const textEl = document.getElementById("text");
     textEl.style.display = "none";
 })
+
+// Как по клику на кнопку изменять текст в <div id="info"> на случайную цитату?
 
 
