@@ -2,3 +2,10 @@
     background-color: lightblue;
 }
 
+.even {
+    color: green;
+}
+
+.odd {
+    color: red;
+}
